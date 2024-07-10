@@ -1,0 +1,9 @@
+form {
+    padding: 1rem;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    padding-bottom: 0.25rem;
+}
