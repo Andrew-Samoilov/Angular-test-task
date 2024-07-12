@@ -1,6 +1,11 @@
 <section>
-    <form action="" >
+    <form [formGroup]="applyForm" (submit)="submitForm()">
         <label for="password">Enter pasword:</label>
-        <input type="text" id="password" placeholder="Enter password">
+        <input id="password" type="password" formControlName="password" placeholder="Enter password" (input)="inputForm()">
     </form>
+</section>
+<section class="passwordStrengthSection">
+    <div class="passwordStrengthDiv" [ngStyle]="{'background-color': setColor(1)}">div 1</div>
+    <div class="passwordStrengthDiv" [ngStyle]="{'background-color': setColor(2)}">div 2</div>
+    <div class="passwordStrengthDiv" [ngStyle]="{'background-color': setColor(3)}">div 3</div>
 </section>
