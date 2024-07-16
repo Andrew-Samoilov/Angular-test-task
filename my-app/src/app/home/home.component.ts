@@ -15,13 +15,13 @@ export class HomeComponent {
     password: new FormControl(''),
   });
 
-  submitForm() {
-    console.log(this.applyForm.value.password ?? '');
-  }
+  // submitForm() {
+  //   console.log(this.applyForm.value.password ?? '');
+  // }
 
-  inputForm() {
-    // console.log(`input`, this.applyForm.value.password ?? '', this.checkPasswordStrength(this.applyForm.value.password ?? ''));
-  }
+  // inputForm() {
+  //   // console.log(`input`, this.applyForm.value.password ?? '', this.checkPasswordStrength(this.applyForm.value.password ?? ''));
+  // }
 
   checkPasswordStrength(password: string): string {
     if (password.length === 0) {
@@ -46,9 +46,9 @@ export class HomeComponent {
   }
 
   setColor(n: number): string {
-    let color1 = 'LightGray';
-    let color2 = 'LightGray';
-    let color3 = 'LightGray';
+    let color1 = '';
+    let color2 = '';
+    let color3 = '';
 
     if (this.applyForm.value.password?.length === 0) {
       color1 = 'LightGray';

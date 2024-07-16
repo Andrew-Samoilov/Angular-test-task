@@ -1,7 +1,10 @@
 <section>
-    <form [formGroup]="applyForm" (submit)="submitForm()">
+    <!-- <form [formGroup]="applyForm" (submit)="submitForm()"> -->
+    <form [formGroup]="applyForm">
         <label for="password">Enter pasword:</label>
-        <input id="password" type="password" formControlName="password" placeholder="Enter password" (input)="inputForm()">
+        <input id="password" type="password" formControlName="password" placeholder="Enter password">
+            <!-- (input)="inputForm()"> -->
+            
     </form>
 </section>
 <section class="passwordStrengthSection">
