@@ -4,7 +4,7 @@ import { NgStyle } from '@angular/common';
 import { PasswordCheckerService } from '../services/password-checker.service';
 
 @Component({
-  selector: 'app-home',
+  selector: 'password-checker',
   standalone: true,
   imports: [ReactiveFormsModule, NgStyle],
   templateUrl: './password-checker.component.html',
@@ -17,10 +17,6 @@ export class PasswordChecker {
   });
 
   constructor(private passwordCheckerService: PasswordCheckerService) { }
-
-  inputForm() {
-    console.log(`input`, this.applyForm.value.password ?? '', this.passwordCheckerService.checkPasswordStrength(this.applyForm.value.password ?? ''));
-  }
 
   setColor(n: number): string {
     let color1 = '';
