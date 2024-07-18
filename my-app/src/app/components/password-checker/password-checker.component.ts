@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { NgStyle } from '@angular/common';
-import { PasswordCheckerService } from '../services/password-checker.service';
+import { PasswordCheckerService } from '../../services/password-checker.service';
 
 @Component({
   selector: 'password-checker',
