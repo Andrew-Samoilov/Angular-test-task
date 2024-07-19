@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { PasswordChecker } from "./components/password-checker/password-checker.component";
+import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ PasswordChecker ],
+  imports: [ReactiveFormComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'test-task';
+  title = 'Angulsr test task';
 }

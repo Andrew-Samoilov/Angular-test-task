@@ -1,0 +1,6 @@
+<h2>Reactive form</h2>
+<form [formGroup]="formGroup">
+    <label for="password2">Enter pasword:</label>
+    <input id="password2" type="password" formControlName="password2" placeholder="Enter password">
+    <password-strength [password]="this.formGroup.value.password2 ?? ''"></password-strength>
+</form>

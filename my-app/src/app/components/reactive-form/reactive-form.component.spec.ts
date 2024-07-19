@@ -1,18 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ReactiveFormComponent } from './reactive-form.component';
 
-import { PasswordChecker } from './password-checker.component';
-
-describe('HomeComponent', () => {
-  let component: PasswordChecker;
-  let fixture: ComponentFixture<PasswordChecker>;
+describe('ReactiveFormComponent', () => {
+  let component: ReactiveFormComponent;
+  let fixture: ComponentFixture<ReactiveFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PasswordChecker]
+      imports: [ReactiveFormComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PasswordChecker);
+    fixture = TestBed.createComponent(ReactiveFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
