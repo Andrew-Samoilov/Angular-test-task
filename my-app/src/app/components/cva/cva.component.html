@@ -1,0 +1,6 @@
+<h1>Usage in Form</h1>
+<form [formGroup]="form">
+    <custom-input formControlName="myFormControl"></custom-input>
+</form>
+<h2>Variable in cva.component</h2>
+{{form.get('myFormControl').value}}

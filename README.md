@@ -35,6 +35,8 @@ I have feedback for my work, which is fine. Refactor.
 
 - [x] refactor Common module import
 
-- [ ]
+- [ ] I can't connect Angular Control Value :-( I do not know what I am doing wrong. Shame on me. I have tried to do it like in this tutor: https://www.tsmean.com/articles/angular/angular-control-value-accessor-example/
+I can't insert this in my code: https://stackblitz.com/edit/angular-control-value-accessor-simple-example-tsm-y3knsq?file=src%2Fapp%2Fcustom-input%2Fcustom-input.component.ts
+I do not understand what I am doing wrong.
 ## Dat - xx
 - [ ] job offer

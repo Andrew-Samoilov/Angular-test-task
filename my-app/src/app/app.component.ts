@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
+// import { CvaComponent } from './components/cva/cva.component'
 
 @Component({
   selector: 'app-root',
@@ -9,5 +10,5 @@ import { ReactiveFormComponent } from './components/reactive-form/reactive-form.
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Angulsr test task';
+  title = 'Angular test task';
 }
