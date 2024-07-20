@@ -2,8 +2,7 @@ form {
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  border: thin dashed lightgray;
 }
 form label {
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.125rem;
 }
